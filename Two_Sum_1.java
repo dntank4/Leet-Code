@@ -1,7 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Two_Sum {
+public class Two_Sum_1 {
     public static void main(String[] args) {
 //        int arr[] = {15, 11, 7, 2};
         int arr[] = {2, 7, 11, 15};
