@@ -43,8 +43,8 @@ public class Add_Two_Numbers_2 {
         val2.reverse();
         char[] chars = String.valueOf(new BigInteger(val1.toString()).add(new BigInteger(val2.toString()))).toCharArray();
         ListNode l5 = null;
-        for (int i = 0; i < chars.length; i++) {
-            l5 = new ListNode(Character.getNumericValue(chars[i]), l5);
+        for (char ch : chars) {
+            l5 = new ListNode(Character.getNumericValue(ch), l5);
         }
         return l5;
     }
